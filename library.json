@@ -1,8 +1,8 @@
 {
   "name": "ES3C35P",
-  "version": "1.0.0",
-  "description": "LovyanGFX configuration for the ES3C35P board: ESP32-S3 + 3.5\" 320x480 ST77922 QSPI IPS LCD with the built-in ST77922 capacitive touch controller.",
-  "keywords": "lovyangfx, display, lcd, st77922, qspi, touch, esp32-s3, es3c35p",
+  "version": "1.0.1",
+  "description": "LovyanGFX configuration for the Hosyond ES3C35P ESP32-S3 Touchscreen Module: ESP32-S3 + 3.5\" 320x480 ST77922 QSPI IPS LCD with the built-in ST77922 capacitive touch controller.",
+  "keywords": "hosyond, es3c35p, esp32-s3, esp32s3, touchscreen, touchscreen module, st77922, lovyangfx, display, lcd, tft, qspi, touch, 3.5 inch, 320x480",
   "authors": [{ "name": "Jason Bolbach", "maintainer": true }],
   "repository": { "type": "git", "url": "https://github.com/JasonBolbach/ES3C35P.git" },
   "license": "MIT",

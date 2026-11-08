@@ -1,6 +1,6 @@
-# ES3C35P
+# ES3C35P — Hosyond ESP32-S3 Touchscreen Module (ST77922) for LovyanGFX
 
-LovyanGFX configuration for the **ES3C35P** board: ESP32-S3R8 (8 MB OPI PSRAM, 16 MB flash) with a 3.5" 320x480 **ST77922** IPS LCD over QSPI and the ST77922's built-in capacitive touch controller.
+LovyanGFX configuration for the **Hosyond ES3C35P ESP32-S3 Touchscreen Module**: ESP32-S3R8 (8 MB OPI PSRAM, 16 MB flash) with a 3.5" 320x480 **ST77922** IPS LCD over QSPI and the ST77922's built-in capacitive touch controller.
 
 LovyanGFX has no ST77922 driver, so this library provides:
 
@@ -12,7 +12,7 @@ LovyanGFX has no ST77922 driver, so this library provides:
 
 ```ini
 lib_deps =
-    https://github.com/JasonBolbach/ES3C35P.git#v1.0.0
+    https://github.com/JasonBolbach/ES3C35P.git#v1.0.1
 ```
 
 LovyanGFX (`^1.3.0`) is pulled in automatically.
@@ -35,7 +35,7 @@ build_flags =
     -DARDUINO_USB_MODE=1
     -DBOARD_HAS_PSRAM
 lib_deps =
-    https://github.com/JasonBolbach/ES3C35P.git#v1.0.0
+    https://github.com/JasonBolbach/ES3C35P.git#v1.0.1
 ```
 
 ## Usage
