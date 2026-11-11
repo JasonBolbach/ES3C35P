@@ -12,8 +12,11 @@ LovyanGFX has no ST77922 driver, so this library provides:
 
 ```ini
 lib_deps =
-    https://github.com/JasonBolbach/ES3C35P.git#v1.0.1
+    jasonbolbach/ES3C35P@^1.0.1
 ```
+
+Or from the CLI: `pio pkg install --library "jasonbolbach/ES3C35P"`.
+To track the latest unreleased code use `https://github.com/JasonBolbach/ES3C35P.git`.
 
 LovyanGFX (`^1.3.0`) is pulled in automatically.
 
@@ -35,7 +38,7 @@ build_flags =
     -DARDUINO_USB_MODE=1
     -DBOARD_HAS_PSRAM
 lib_deps =
-    https://github.com/JasonBolbach/ES3C35P.git#v1.0.1
+    jasonbolbach/ES3C35P@^1.0.1
 ```
 
 ## Usage
